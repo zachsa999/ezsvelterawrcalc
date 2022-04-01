@@ -32,6 +32,28 @@
     <input bind:value={b} type=number min=0 max=10>
 
     <p>Value</p>
-    <p>{c}</p>
+    <p class="huuge">{c}</p>
 
 </div>
+<style>
+
+    div {
+        align-items: center;
+        display: grid;
+        padding-left: 25vw;
+        padding-right: 25vw;-left: 25vw;
+        
+    }
+    p {
+        align-items: center;
+        color: blue;
+        padding: 12px;
+        background-color: #eee;
+    }
+
+    .huuge {
+        font-size: 20px;
+        font-weight: bold;
+        color: #111;
+    }
+</style>
